@@ -78,7 +78,7 @@ function draw() {
   }));
   if(gameState===3){
     dog.addImage(washroom);
-    dog.scale=0.5;
+    dog.scale=0.7;
     milkBotltle2.visible=false;
   }
 
@@ -90,7 +90,7 @@ function draw() {
   }));
   if(gameState===4){
     dog.addImage(bedroom);
-    dog.scale=1;
+    dog.scale=0.7;
     milkBotltle2.visible=false;
   }
 
@@ -102,7 +102,7 @@ function draw() {
   }));
   if(gameState===5){
     dog.addImage(livingroom);
-    dog.scale=1;
+    dog.scale=0.7;
     milkBotltle2.visible=false;
   }
 
@@ -115,7 +115,7 @@ function draw() {
   if(gameState===6){
     dog.y=175;
     dog.addImage(garden);
-    dog.scale=1;
+    dog.scale=0.7;
     milkBotltle2.visible=false;
   }
 
