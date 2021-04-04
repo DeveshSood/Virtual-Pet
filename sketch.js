@@ -46,7 +46,7 @@ function draw() {
   foodObj.display();
   writeStock(foodS);
   
-  if(foodS == 0){
+  if(foodS < 1){
     dog.addImage(happyDog);
     milkBotltle2.visible=false;
   }else{
